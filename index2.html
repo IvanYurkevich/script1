@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>Document</title>
+</head>
+<body>
+    <div class="script" style="text-align: center;">
+        <h1>Java script.Lesson 1</h1>
+    </div>
+
+
+<script>
+let a = prompt('your name?');
+let b = parseInt(prompt('your age?'));
+let c = confirm('you sex is male?');
+
+c == true ? с = 'M': c = 'F';
+let d = ' ';
+'M' && b > 60 ? d = 'YES': d = 'NO';
+'F' && b > 55 ? d = 'YES': d ='NO';
+
+alert (`ваше ФИО:${a} 
+ваш возраст в годах: ${b}
+ваш возраст в днях: ${b*365}
+через 5 лет вам будет:${b+5}
+ваш пол: ${c}
+вы на пенсии: ${d}`);
+
+</script>
+  
+
+</body>
+</html>
